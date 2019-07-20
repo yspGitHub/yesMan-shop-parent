@@ -6,8 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yesMan-shop-parent" />
+        <module name="yesman-shop-basics-eureka" />
+        <module name="yesman-shop-entitys-api-weixin" />
+        <module name="yesman-shop-service-api-weixin" />
+        <module name="yesman-shop-service-impl-weixin" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yesman-shop-basics-eureka" options="-parameters" />
+      <module name="yesman-shop-entitys-api-weixin" options="-parameters" />
+      <module name="yesman-shop-service-api-weixin" options="-parameters" />
+      <module name="yesman-shop-service-impl-weixin" options="-parameters" />
+    </option>
   </component>
 </project>
