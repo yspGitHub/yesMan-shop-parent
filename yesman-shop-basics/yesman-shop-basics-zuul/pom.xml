@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>yesMan-shop-parent</artifactId>
+        <artifactId>yesMan-shop-basics</artifactId>
         <groupId>com.yesMan</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>yesMan-shop-basics</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>yesMan-shop-basics-eureka</module>
-        <module>yesman-shop-basics-zuul</module>
-    </modules>
+    <artifactId>yesman-shop-basics-zuul</artifactId>
 
 
 </project>

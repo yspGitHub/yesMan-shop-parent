@@ -13,6 +13,7 @@
         <module>yesMan-shop-service-api</module>
         <module>yesMan-shop-entitys-api</module>
         <module>yesMan-shop-service-impl</module>
+        <module>yesman-shop-common</module>
     </modules>
 
     <parent>
