@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yesman-shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yesman-shop-basics/yesman-shop-basics-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yesman-shop-basics/yesman-shop-basics-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yesman-shop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yesman-shop-entitys-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yesman-shop-entitys-api/yesman-shop-entitys-api-weixin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yesman-shop-service-api" charset="UTF-8" />

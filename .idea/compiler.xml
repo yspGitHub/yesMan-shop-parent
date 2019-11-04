@@ -6,16 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yesMan-shop-basics-eureka" />
         <module name="yesman-shop-basics-eureka" />
+        <module name="yesman-shop-basics-zuul" />
+        <module name="yesMan-shop-entitys-api-weixin" />
         <module name="yesman-shop-entitys-api-weixin" />
         <module name="yesman-shop-service-api-weixin" />
+        <module name="yesMan-shop-service-api-weixin" />
         <module name="yesman-shop-service-impl-weixin" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yesMan-shop-basics-eureka" options="-parameters" />
+      <module name="yesMan-shop-entitys-api-weixin" options="-parameters" />
+      <module name="yesMan-shop-service-api-weixin" options="-parameters" />
       <module name="yesman-shop-basics-eureka" options="-parameters" />
+      <module name="yesman-shop-basics-zuul" options="-parameters" />
+      <module name="yesman-shop-common" options="-parameters" />
       <module name="yesman-shop-entitys-api-weixin" options="-parameters" />
       <module name="yesman-shop-service-api-weixin" options="-parameters" />
       <module name="yesman-shop-service-impl-weixin" options="-parameters" />
