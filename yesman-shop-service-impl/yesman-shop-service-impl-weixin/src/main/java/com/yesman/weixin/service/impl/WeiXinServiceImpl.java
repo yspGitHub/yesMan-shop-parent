@@ -1,7 +1,7 @@
-package com.yesman.service.impl;
+package com.yesman.weixin.service.impl;
 
 import com.yesman.entity.AppEntity;
-import com.yesman.service.WeiXinService;
+import com.yesman.weixin.WeiXinService;
 
 public class WeiXinServiceImpl implements WeiXinService {
 
