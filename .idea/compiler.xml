@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yesMan-shop-basics-eureka" />
         <module name="yesman-shop-basics-eureka" />
+        <module name="yesMan-shop-basics-eureka" />
         <module name="yesman-shop-basics-zuul" />
         <module name="yesMan-shop-entitys-api-weixin" />
         <module name="yesman-shop-entitys-api-weixin" />

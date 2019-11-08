@@ -85,7 +85,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->
+    <!-- 注意： 这里必须要添加， 否则各种依赖有问题 -->
     <repositories>
         <repository>
             <id>spring-milestones</id>
